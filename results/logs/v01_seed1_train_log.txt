@@ -1,0 +1,122 @@
+seed=1 device=cuda train=25380 dev=24844 pos_weight=0.113 augment=True sched=cosine feature=mel epochs=30 batch=64 lr=0.001
+  epoch 1 batch 100/397 loss 0.1402
+  epoch 1 batch 200/397 loss 0.1389
+  epoch 1 batch 300/397 loss 0.1365
+epoch   1  lr 1.00e-03  train_loss 0.1345  dev_eer 34.81% *
+  epoch 2 batch 100/397 loss 0.1228
+  epoch 2 batch 200/397 loss 0.1216
+  epoch 2 batch 300/397 loss 0.1231
+epoch   2  lr 9.97e-04  train_loss 0.1223  dev_eer 26.66% *
+  epoch 3 batch 100/397 loss 0.1235
+  epoch 3 batch 200/397 loss 0.1211
+  epoch 3 batch 300/397 loss 0.1182
+epoch   3  lr 9.89e-04  train_loss 0.1157  dev_eer 37.13%
+  epoch 4 batch 100/397 loss 0.1101
+  epoch 4 batch 200/397 loss 0.1109
+  epoch 4 batch 300/397 loss 0.1098
+epoch   4  lr 9.76e-04  train_loss 0.1104  dev_eer 22.88% *
+  epoch 5 batch 100/397 loss 0.1052
+  epoch 5 batch 200/397 loss 0.1066
+  epoch 5 batch 300/397 loss 0.1063
+epoch   5  lr 9.57e-04  train_loss 0.1053  dev_eer 21.58% *
+  epoch 6 batch 100/397 loss 0.1020
+  epoch 6 batch 200/397 loss 0.1020
+  epoch 6 batch 300/397 loss 0.1010
+epoch   6  lr 9.33e-04  train_loss 0.1013  dev_eer 17.47% *
+  epoch 7 batch 100/397 loss 0.0961
+  epoch 7 batch 200/397 loss 0.0954
+  epoch 7 batch 300/397 loss 0.0960
+epoch   7  lr 9.05e-04  train_loss 0.0954  dev_eer 31.36%
+  epoch 8 batch 100/397 loss 0.0910
+  epoch 8 batch 200/397 loss 0.0931
+  epoch 8 batch 300/397 loss 0.0922
+epoch   8  lr 8.72e-04  train_loss 0.0908  dev_eer 20.40%
+  epoch 9 batch 100/397 loss 0.0865
+  epoch 9 batch 200/397 loss 0.0871
+  epoch 9 batch 300/397 loss 0.0870
+epoch   9  lr 8.35e-04  train_loss 0.0875  dev_eer 17.65%
+  epoch 10 batch 100/397 loss 0.0858
+  epoch 10 batch 200/397 loss 0.0823
+  epoch 10 batch 300/397 loss 0.0828
+epoch  10  lr 7.94e-04  train_loss 0.0830  dev_eer 13.93% *
+  epoch 11 batch 100/397 loss 0.0825
+  epoch 11 batch 200/397 loss 0.0833
+  epoch 11 batch 300/397 loss 0.0827
+epoch  11  lr 7.50e-04  train_loss 0.0820  dev_eer 12.04% *
+  epoch 12 batch 100/397 loss 0.0748
+  epoch 12 batch 200/397 loss 0.0758
+  epoch 12 batch 300/397 loss 0.0778
+epoch  12  lr 7.03e-04  train_loss 0.0784  dev_eer 17.70%
+  epoch 13 batch 100/397 loss 0.0758
+  epoch 13 batch 200/397 loss 0.0744
+  epoch 13 batch 300/397 loss 0.0740
+epoch  13  lr 6.55e-04  train_loss 0.0730  dev_eer 14.24%
+  epoch 14 batch 100/397 loss 0.0710
+  epoch 14 batch 200/397 loss 0.0714
+  epoch 14 batch 300/397 loss 0.0714
+epoch  14  lr 6.04e-04  train_loss 0.0722  dev_eer 11.57% *
+  epoch 15 batch 100/397 loss 0.0707
+  epoch 15 batch 200/397 loss 0.0704
+  epoch 15 batch 300/397 loss 0.0692
+epoch  15  lr 5.52e-04  train_loss 0.0691  dev_eer 16.75%
+  epoch 16 batch 100/397 loss 0.0723
+  epoch 16 batch 200/397 loss 0.0690
+  epoch 16 batch 300/397 loss 0.0671
+epoch  16  lr 5.00e-04  train_loss 0.0666  dev_eer 12.70%
+  epoch 17 batch 100/397 loss 0.0634
+  epoch 17 batch 200/397 loss 0.0633
+  epoch 17 batch 300/397 loss 0.0633
+epoch  17  lr 4.48e-04  train_loss 0.0641  dev_eer 11.63%
+  epoch 18 batch 100/397 loss 0.0612
+  epoch 18 batch 200/397 loss 0.0609
+  epoch 18 batch 300/397 loss 0.0614
+epoch  18  lr 3.96e-04  train_loss 0.0624  dev_eer 10.08% *
+  epoch 19 batch 100/397 loss 0.0609
+  epoch 19 batch 200/397 loss 0.0596
+  epoch 19 batch 300/397 loss 0.0588
+epoch  19  lr 3.45e-04  train_loss 0.0584  dev_eer 10.75%
+  epoch 20 batch 100/397 loss 0.0568
+  epoch 20 batch 200/397 loss 0.0566
+  epoch 20 batch 300/397 loss 0.0573
+epoch  20  lr 2.97e-04  train_loss 0.0580  dev_eer 13.33%
+  epoch 21 batch 100/397 loss 0.0572
+  epoch 21 batch 200/397 loss 0.0573
+  epoch 21 batch 300/397 loss 0.0576
+epoch  21  lr 2.50e-04  train_loss 0.0577  dev_eer 9.11% *
+  epoch 22 batch 100/397 loss 0.0568
+  epoch 22 batch 200/397 loss 0.0565
+  epoch 22 batch 300/397 loss 0.0563
+epoch  22  lr 2.06e-04  train_loss 0.0564  dev_eer 9.50%
+  epoch 23 batch 100/397 loss 0.0520
+  epoch 23 batch 200/397 loss 0.0537
+  epoch 23 batch 300/397 loss 0.0540
+epoch  23  lr 1.65e-04  train_loss 0.0539  dev_eer 10.29%
+  epoch 24 batch 100/397 loss 0.0518
+  epoch 24 batch 200/397 loss 0.0544
+  epoch 24 batch 300/397 loss 0.0541
+epoch  24  lr 1.28e-04  train_loss 0.0537  dev_eer 10.28%
+  epoch 25 batch 100/397 loss 0.0538
+  epoch 25 batch 200/397 loss 0.0516
+  epoch 25 batch 300/397 loss 0.0521
+epoch  25  lr 9.55e-05  train_loss 0.0519  dev_eer 8.87% *
+  epoch 26 batch 100/397 loss 0.0517
+  epoch 26 batch 200/397 loss 0.0523
+  epoch 26 batch 300/397 loss 0.0522
+epoch  26  lr 6.70e-05  train_loss 0.0526  dev_eer 9.36%
+  epoch 27 batch 100/397 loss 0.0515
+  epoch 27 batch 200/397 loss 0.0516
+  epoch 27 batch 300/397 loss 0.0513
+epoch  27  lr 4.32e-05  train_loss 0.0508  dev_eer 10.32%
+  epoch 28 batch 100/397 loss 0.0518
+  epoch 28 batch 200/397 loss 0.0515
+  epoch 28 batch 300/397 loss 0.0508
+epoch  28  lr 2.45e-05  train_loss 0.0517  dev_eer 10.00%
+  epoch 29 batch 100/397 loss 0.0499
+  epoch 29 batch 200/397 loss 0.0511
+  epoch 29 batch 300/397 loss 0.0504
+epoch  29  lr 1.09e-05  train_loss 0.0508  dev_eer 9.50%
+  epoch 30 batch 100/397 loss 0.0501
+  epoch 30 batch 200/397 loss 0.0500
+  epoch 30 batch 300/397 loss 0.0505
+epoch  30  lr 2.74e-06  train_loss 0.0499  dev_eer 9.62%
+best dev_eer 8.87%

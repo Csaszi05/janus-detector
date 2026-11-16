@@ -1,0 +1,31 @@
+# Janus 0.1: mel-spektrogram + JanusCNN
+model: cnn
+
+audio:
+  sr: 16000
+  max_sec: 4.0
+  trim_db: 30
+  feature: mel
+  # mel beallitasok (feature: mel)
+  n_fft: 1024
+  hop: 256
+  n_mels: 80
+  # lfcc beallitasok (feature: lfcc), az ASVspoof 2019 hivatalos LFCC-alapmodell parameterei
+  lfcc:
+    n_fft: 512
+    win: 320          # 20 ms
+    hop: 160          # 10 ms
+    n_filters: 20     # linearis haromszog-szurok 0-8 kHz kozott
+    n_lfcc: 20        # DCT utan megtartott egyutthatok
+    deltas: true      # + delta + delta-delta -> 60 sor
+
+augment:            # csak tanitaskor, a cache-elt feature-on (train.py --augment)
+  noise_db_min: -70 # zajpadlo dB-ben, a fajl maximumahoz kepest; csak mel eseten, LFCC-nel kimarad
+  noise_db_max: -45
+  n_freq_masks: 2   # ennyi veletlen frekvenciasavot (LFCC-nel: egyutthato-sort) takarunk el, az atlagertekkel
+  freq_mask_max: 8  # max savszelesseg sorban
+  n_time_masks: 2   # ennyi veletlen idoszakaszt takarunk el, az atlagertekkel
+  time_mask_max: 20 # max hossz oszlopban (mel: 0.32 s, lfcc: 0.2 s)
+
+data:
+  root: data/LA
